@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/them_khoan_chi"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/edtTenKhoanChi"
+        android:hint="@string/nhap_ten_khoan_chi"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/edtSoTienChi"
+        android:layout_marginTop="8dp"
+        android:hint="@string/nhap_so_tien_chi"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/edtTimeKhoanChi"
+        android:hint="@string/thoi_gian_chi"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:id="@+id/spnKhoanChi"
+        android:layout_marginTop="8dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/edtNoteKhoanChi"
+        android:hint="@string/nhap_ghi_chu"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnHuyAddKhoanChi"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:text="@string/huy"
+            android:textSize="15sp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnAddKhoanChi"
+            android:text="@string/them"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

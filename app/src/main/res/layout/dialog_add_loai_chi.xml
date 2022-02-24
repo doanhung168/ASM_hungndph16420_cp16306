@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/them_loai_chi"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtTenLoaiChi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center|left"
+        android:hint="Nhập tên loại muốn thêm"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHuyThemLoaiChi"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:text="HỦY"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnThemLoaiChi"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:text="THÊM"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

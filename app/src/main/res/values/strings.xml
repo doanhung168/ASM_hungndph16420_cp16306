@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ASM_hungndph16420_cp16306</string>
+    <string name="close">closeNavDrawer</string>
+    <string name="open">openNavDrawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thong_bao_thoat_ung_dung">Bạn có chắc chắn muốn thoát ứng dụng ngay lúc này?</string>
+    <string name="nhap_ten_khoan_thu">Nhập tên khoản thu</string>
+    <string name="thoi_gian_thu">Chọn thời gian thu</string>
+    <string name="so_tien_thu">Nhập số tiền thu</string>
+    <string name="nhap_so_tien_thu">Nhập số tiền thu</string>
+    <string name="nhap_ghi_chu">Nhập ghi chú</string>
+    <string name="them">Thêm</string>
+    <string name="huy">Hủy</string>
+    <string name="khoa_thu">KHOẢN THU</string>
+    <string name="loai_chi">LOẠI CHI: </string>
+    <string name="khoa_chi">KHOẢN CHI</string>
+    <string name="them_khoan_chi">Thêm Khoản Chi</string>
+    <string name="nhap_ten_khoan_chi">Nhập tên khoản chi</string>
+    <string name="nhap_so_tien_chi">Nhập số tiền chi</string>
+    <string name="thoi_gian_chi">Chọn thời gian chi</string>
+    <string name="them_loai_chi">Thêm Loại Chi</string>
+    <string name="sua_loai_chi">Sửa Loại Chi</string>
+    <string name="ten_loai_thu_dang_su_dung">Tên loại thu đang sử dụng</string>
+    <string name="nhap_ten_loai_thu_moi">Nhập tên loại thu mới</string>
+    <string name="sua">Sửa</string>
+</resources>
